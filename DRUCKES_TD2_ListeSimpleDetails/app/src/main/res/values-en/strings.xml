@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">List and Details</string>
+    <string name="WelcomeScreen">[Detail of ListItem Placeholder]</string>
+    <string name="welcome_to_profile_user">Welcome to your profile,%n%s %s.</string>
+    <string name="food_details">There are food\'s details%n%s</string>
+    <string name="planet_details">There are planet\'s details%n%s.</string>
+    <string name="fname_label_getter">"Last Name : "</string>
+    <string name="name_label_getter">"Name : "</string>
+    <string name="gender_label_getter">"Gender : "</string>
+    <string name="FName_label">"Last Name : "</string>
+    <string name="FName_Input_Text_Hint">last name</string>
+    <string name="Name_label">"Name : "</string>
+    <string name="Name_Input_Text_Hint">name</string>
+    <string name="food_name_label">"Name : "</string>
+    <string name="food_cost_label">"Price (France) € : "</string>
+    <string name="food_origin_label">"Origin : "</string>
+    <string name="planet_vom_label">"Average Orbital Speed (mph) : "</string>
+    <string name="planet_age_label">"Age : "</string>
+    <string name="planet_weight_label">"Weight (kg) : "</string>
+    <string name="planet_radius_label">"Radius  (km) : "</string>
+    <string name="planet_name_label">"Name : "</string>
+    <string name="woman_radio_text">Woman</string>
+    <string name="man_radio_text">Man</string>
+    <string name="label_genders">Gender</string>
+</resources>

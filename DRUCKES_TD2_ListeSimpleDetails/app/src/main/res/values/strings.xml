@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Liste et Détails</string>
+
+    <string name="WelcomeScreen"> [Détails de ListItem Placeholder] </string>
+
+    <string name="welcome_to_profile_user">Bienvenue sur votre profil,%n%s %s.</string>
+    <string name="food_details">Voici les détails du plat%n%s</string>
+    <string name="planet_details">Voici les détails de la planète%n%s.</string>
+    <!--USER STRINGS-->
+    <string name="fname_label_getter">Nom : </string>
+    <string name="name_label_getter">Prenom : </string>
+    <string name="gender_label_getter">Genre : </string>
+    <string name="email_label_getter" translatable="false">EMail : </string>
+
+    <string name="fname_text_getter" translatable="false">NomPlaceholder</string>
+    <string name="name_text_getter" translatable="false">PrenomPlaceholder</string>
+    <string name="gender_text_getter" translatable="false">GenrePlaceholder</string>
+    <string name="email_text_getter" translatable="false">EMailPlaceholder</string>
+
+    <string name="today_date_placeholder" translatable="false">TODAY DATE</string>
+
+    <string name="FName_label">Nom : </string>
+    <string name="FName_Input_Text_Hint">nom</string>
+
+    <string name="Name_label">Prenom : </string>
+    <string name="Name_Input_Text_Hint">prenom</string>
+
+    <string name="Email_label" translatable="false">EMail : </string>
+    <string name="Email_placeholder" translatable="false">nom.prenom@ludus-academie.com</string>
+
+    <string name="label_genders">Genres</string>
+    <string name="man_radio_text">Homme</string>
+    <string name="woman_radio_text">Femme</string>
+
+    <string name="profilpic_description" translatable="false">profile picture</string>
+
+    <!--PLANET STRINGS-->
+    <string name="planet_name_label">Nom : </string>
+    <string name="planet_name" translatable="false">__PLACEHOLDER__</string>
+
+    <string name="planet_radius_label">Rayon (km) : </string>
+    <string name="planet_radius_in_meters" translatable="false">__PLACEHOLDER__ km</string>
+
+    <string name="planet_weight_label">Masse (kg) : </string>
+    <string name="planet_weight_kg" translatable="false"> __PLACEHOLDER__ kg </string>
+
+    <string name="planet_age_label">Âge : </string>
+    <string name="planet_age" translatable="false">__PLACEHOLDER__ ans</string>
+
+    <string name="planet_vom_label">Vitesse orbitale moyenne (km/s) : </string>
+    <string name="planet_vom_text" translatable="false">__PLACEHOLDER__</string>
+
+    <!--FOOD STRINGS-->
+    <string name="food_name_label">Nom : </string>
+    <string name="food_name" translatable="false">__PLACEHOLDER__</string>
+
+    <string name="food_cost_label">Prix en France (€) : </string>
+    <string name="food_avg_cost_france" translatable="false">__PLACEHOLDER__</string>
+
+    <string name="food_origin_label">Origine : </string>
+    <string name="food_origin" translatable="false">__PLACEHOLDER__</string>
+</resources>

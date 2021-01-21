@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="listview_hg">550dp</dimen>
+    <dimen name="screen_imagedimension">200dp</dimen>
+</resources>
