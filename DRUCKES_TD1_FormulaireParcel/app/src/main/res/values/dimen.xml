@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_datetoday_margin">50dp</dimen>
+    <dimen name="bottom_label_margin">50dp</dimen>
+    <dimen name="textSize18">18sp</dimen>
+    <dimen name="textSize24">24sp</dimen>
+    <dimen name="radiogroup_marginend">20dp</dimen>
+    <dimen name="buttons_form_width">225dp</dimen>
+    <dimen name="startmargin">20dp</dimen>
+    <dimen name="img_dimension">150dp</dimen>
+    <dimen name="dim0">0dp</dimen>
+</resources>

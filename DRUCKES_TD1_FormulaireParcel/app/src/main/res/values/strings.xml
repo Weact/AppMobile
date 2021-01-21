@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">DRUCKES_TD1_FormulaireParcel</string>
+    <string name="FormulaireParcel">Formulaire Parcel</string>
+    <string name="splashscreen">Formulaire Parcel</string>
+    <string name="formSignup">Formulaire Inscription</string>
+    <string name="UserProfile">Profil</string>
+    <string name="AccueilUtilisateur">Accueil Utilisateur</string>
+
+    <string name="fname_label_getter">Nom : </string>
+    <string name="name_label_getter">Prenom : </string>
+    <string name="gender_label_getter">Genre : </string>
+    <string name="email_label_getter">EMail : </string>
+
+    <string name="fname_text_getter">NomPlaceholder</string>
+    <string name="name_text_getter">PrenomPlaceholder</string>
+    <string name="gender_text_getter">GenrePlaceholder</string>
+    <string name="email_text_getter">EMailPlaceholder</string>
+
+    <string name="today_date_placeholder">TODAY DATE</string>
+
+    <string name="FName_label">Nom : </string>
+    <string name="FNAME_label_placeholder">Votre nom</string>
+    <string name="FName_Input_Text_Hint">nom</string>
+
+    <string name="Name_label">Prenom : </string>
+    <string name="NAME_label_placeholder">Votre prenom</string>
+    <string name="Name_Input_Text_Hint">prenom</string>
+
+    <string name="Email_label">EMail : </string>
+    <string name="Email_placeholder">nom.prenom@ludus-academie.com</string>
+
+    <string name="label_genders">Genres</string>
+    <string name="man_radio_text">Homme</string>
+    <string name="woman_radio_text">Femme</string>
+
+    <string name="image_profile_contentdescription">Image de Profil</string>
+
+    <string name="button_reset_text">REINITIALISER</string>
+    <string name="button_submit_text">VALIDER</string>
+</resources>

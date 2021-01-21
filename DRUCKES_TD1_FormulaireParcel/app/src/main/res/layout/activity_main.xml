@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/today_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/bottom_datetoday_margin"
+        android:text="@string/today_date_placeholder"
+        android:textColor="#032A9F"
+        android:textSize="@dimen/textSize24"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/fname_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/today_date"
+        android:layout_marginBottom="@dimen/bottom_label_margin"
+        android:text="@string/FName_label"
+        android:textSize="@dimen/textSize24"
+        android:textColor="@color/blue_text_ui"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fname_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/fname_label"
+        android:layout_toEndOf="@id/fname_label">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fname_input_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/FName_Input_Text_Hint"
+            android:inputType="textCapCharacters"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/fname_label"
+        android:layout_marginBottom="@dimen/bottom_label_margin"
+        android:text="@string/Name_label"
+        android:textSize="@dimen/textSize24"
+        android:textColor="@color/blue_text_ui"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/name_label"
+        android:layout_toEndOf="@id/name_label">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name_input_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name_Input_Text_Hint"
+            android:inputType="textCapWords" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/name_label"
+        android:layout_marginBottom="@dimen/bottom_label_margin"
+        android:text="@string/Email_label"
+        android:textSize="@dimen/textSize24"
+        android:textColor="@color/blue_text_ui"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/email_label"
+        android:layout_toEndOf="@id/email_label"
+        android:text="@string/Email_placeholder"
+        android:textAlignment="center"
+        android:textColor="@color/blue_text_ui"
+        android:textSize="@dimen/textSize18"
+        android:textStyle="bold"
+        android:singleLine="true"/>
+
+
+    <TextView
+        android:id="@+id/label_genders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_label"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/radiogroup_marginend"
+        android:text="@string/label_genders"
+        android:textColor="@color/blue_text_ui"
+        android:textSize="@dimen/textSize18"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/vertical_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_genders"
+        android:layout_marginEnd="@dimen/radiogroup_marginend"
+        android:layout_alignParentEnd="true">
+
+        <RadioButton
+            android:id="@+id/radio_man"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/man_radio_text"
+            android:textSize="@dimen/textSize18"
+            android:textColor="@color/blue_text_ui"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/radio_woman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/woman_radio_text"
+            android:textSize="@dimen/textSize18"
+            android:textColor="@color/blue_text_ui"
+            android:checked="true"/>
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutvertical_formbuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/startmargin">
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="@dimen/buttons_form_width"
+            android:layout_height="wrap_content"
+            android:text="@string/button_reset_text"
+            android:textSize="@dimen/textSize24"
+            android:textColor="@color/blue_text_ui"
+            android:textStyle="bold"
+            android:backgroundTint="@color/black"/>
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_submit_text"
+            android:textSize="@dimen/textSize24"
+            android:textColor="@color/blue_text_ui"
+            android:textStyle="bold"
+            android:backgroundTint="@color/black"/>
+    </LinearLayout>
+
+</RelativeLayout>
