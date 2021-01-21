@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_td">DRUCKES_TD2_ListeSimpleDetails</string>
     <string name="app_name">Liste et Détails</string>
 
     <string name="WelcomeScreen"> [Détails de ListItem Placeholder] </string>

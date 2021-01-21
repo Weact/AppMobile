@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_td">DRUCKES_TD2_SimpleDetailsList</string>
     <string name="app_name">List and Details</string>
     <string name="WelcomeScreen">[Detail of ListItem Placeholder]</string>
     <string name="welcome_to_profile_user">Welcome to your profile,%n%s %s.</string>

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.weact.listdetailsapplication">
+    package="com.weact.recyclerviewlist">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_customlauncher"
-        android:label="@string/app_td"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_customlauncher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ListDetailsApplication">
-        <activity android:name=".FoodScreen"></activity>
-        <activity android:name=".PlanetScreen" />
-        <activity android:name=".UserScreen" />
+        android:theme="@style/Theme.RecyclerViewList">
+        <activity android:name=".PlanetScreen"></activity>
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

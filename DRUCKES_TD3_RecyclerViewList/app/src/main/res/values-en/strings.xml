@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DRUCKES_TD3_CustomRecyclerViewList</string>
+    <string name="MainActivity_Title">Planet Custom List with RecyclerView</string>
+    <string name="WelcomeScreen">[Detail of ListItem Placeholder]</string>
+    <string name="planet_details">There are planet\'s details%n%s.</string>
+    <string name="planetpic_description">Planet Picture</string>
+    <string name="planet_vom_label">"Average Orbital Speed (mph) : "</string>
+    <string name="planet_age_label">"Age : "</string>
+    <string name="planet_weight_label">"Weight (kg) : "</string>
+    <string name="planet_radius_label">"Radius  (km) : "</string>
+    <string name="planet_name_label">"Name : "</string>
+    <string name="planetimg_cdesc">Planet Content Description</string>
+
+    <string name="holder_planetname">Planet\'s Name : %s</string>
+    <string name="holder_planetage">Planet\'s Age : %s years</string>
+    <string name="age_unit">billion</string>
+    <string name="terre">Earth</string>
+    <string name="mars">Mars</string>
+    <string name="Saturne">Saturn</string>
+
+</resources>

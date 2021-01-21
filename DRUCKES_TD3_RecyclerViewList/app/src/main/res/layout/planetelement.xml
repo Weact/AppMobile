@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/planetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:weightSum="4">
+    <ImageView
+        android:id="@+id/planetImage"
+        android:layout_width="@dimen/listelement_img_dimension"
+        android:layout_height="@dimen/listelement_img_dimension"
+        android:layout_weight="0"
+        android:background="@drawable/terre"
+        android:contentDescription="@string/planetimg_cdesc"/>
+    <LinearLayout
+        android:id="@+id/planetInfosContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:weightSum="2"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/planetName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/planet_name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/listeelement_txt_size"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/planetAge"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/planet_age"
+            android:textSize="@dimen/listeelement_txt_size"
+            android:textColor="@color/planetelement_color"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="center"
+            android:background="@color/teal_700"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DRUCKES_TD3_RecyclerViewPlanet</string>
+    <string name="MainActivity_Title">Liste Personalisée de Planètes avec RecyclerView</string>
+    <string name="WelcomeScreen"> [Détails de ListItem Placeholder] </string>
+    <string name="planet_details">Voici les détails de la planète%n%s.</string>
+
+    <!--PLANET STRINGS-->
+    <string name="planetpic_description">Image Planete</string>
+
+    <string name="holder_planetname">Nom de la Planète : %s</string>
+    <string name="holder_planetage">Age de la Planète : %s d\'années</string>
+
+    <string name="planet_name_label">Nom : </string>
+    <string name="planet_name" translatable="false">__PLACEHOLDER__</string>
+
+    <string name="planet_radius_label">Rayon (km) : </string>
+    <string name="planet_radius_in_meters" translatable="false">__PLACEHOLDER__ km</string>
+
+    <string name="planet_weight_label">Masse (kg) : </string>
+    <string name="planet_weight_kg" translatable="false"> __PLACEHOLDER__ kg </string>
+
+    <string name="planet_age_label">Âge : </string>
+    <string name="planet_age" translatable="false">__PLACEHOLDER__ ans</string>
+    <string name="age_unit">milliards</string>
+    <string name="terre">Terre</string>
+    <string name="mars">Mars</string>
+    <string name="Saturne">Saturne</string>
+
+    <string name="planet_vom_label">Vitesse orbitale moyenne (km/s) : </string>
+    <string name="planet_vom_text" translatable="false">__PLACEHOLDER__</string>
+    <string name="planetimg_cdesc">Description Planete</string>
+</resources>
