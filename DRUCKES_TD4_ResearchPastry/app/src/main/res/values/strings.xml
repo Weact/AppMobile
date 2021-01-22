@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">DRUCKES_TD4_RecherchePatisserie</string>
+    <string name="MainActivity_Title">Recherche personnalisée de Patisserie</string>
+    <string name="WelcomeScreen"> [Détails de ListItem Placeholder] </string>
+    <string name="FoodScreen_Title">PATISSERIE [%s]</string>
+    <string name="searchbar_hint">Recherchez</string>
+    <string name="pastry">Patisserie</string>
+    <string name="pastry_name">Nom : </string>
+    <string name="pastry_origin">Origine : </string>
+    <string name="pastry_price">Prix : </string>
+    <string name="donuts">Donuts</string>
+    <string name="goldendonuts">Donuts En Or</string>
+
+    <string name="Italie">Italie</string>
+    <string name="GoldenItalie">Italie En Or</string>
+    <string name="France" translatable="false">France</string>
+    <string name="GoldenFrance">France En Or</string>
+    <string name="NA">Amérique du Nord</string>
+    <string name="GNA">Amérique du Nord En Or</string>
+
+    <string name="foodname_error">Patisserie Non Trouvée</string>
+    <string name="foodname_error_title">Pas de Patisserie</string>
+    <string name="nopastryindication">Il n\'y a pas de patisserie sur cette page</string>
+    <!--FOOD STRINGS-->
+
+    <string name="food_details">Voici les détails de la patisserie%n%s</string>
+    <string name="food_name_label">Nom : </string>
+    <string name="food_name" translatable="false">__PLACEHOLDER__</string>
+
+    <string name="food_cost_label">Prix en France (€) : </string>
+    <string name="food_avg_cost_france" translatable="false">__PLACEHOLDER__</string>
+
+    <string name="food_origin_label">Origine : </string>
+    <string name="food_origin" translatable="false">__PLACEHOLDER__</string>
+
+    <string name="foodimg_desc">Description Patisserie</string>
+    <string name="backbtn">Retour A La Liste De Patisserie</string>
+
+    <string name="home_pastryname_Tiramisu">Tiramisu</string>
+    <string name="home_pastryname_Donuts">Donuts</string>
+    <string name="home_pastryname_Macaron">Macaron</string>
+    <string name="home_pastryname_Eclair">Eclair au Chocolat</string>
+    <string name="home_pastryname_MilleFeuille">Mille Feuille</string>
+    <string name="home_pastryname_ParisBrest">Paris Brest</string>
+
+    <string name="home_pastryname_GTiramisu">Tiramisu en Or</string>
+    <string name="home_pastryname_GDonuts">Donuts en Or</string>
+    <string name="home_pastryname_GMacaron">Macaron en Or</string>
+    <string name="home_pastryname_GEclair">Eclair au Chocolat en Or</string>
+    <string name="home_pastryname_GMilleFeuille">Mille Feuille en Or</string>
+    <string name="home_pastryname_GParisBrest">Paris Brest en Or</string>
+</resources>

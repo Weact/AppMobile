@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">DRUCKES_TD4_ResearchPastry</string>
+    <string name="MainActivity_Title">Custom Search Pastry List</string>
+    <string name="WelcomeScreen"> [Detail of ListItem Placeholder] </string>
+    <string name="FoodScreen_Title">PASTRY [%s]</string>
+    <string name="searchbar_hint">Search</string>
+    <string name="pastry">Pastry</string>
+    <string name="pastry_name">Name : </string>
+    <string name="pastry_origin">Origin : </string>
+    <string name="pastry_price">Price : </string>
+    <string name="donuts">Doughnuts</string>
+    <string name="goldendonuts">Golden Doughnuts</string>
+
+    <string name="Italie">Italia</string>
+    <string name="GoldenItalie">Golden Italia</string>
+    <string name="GoldenFrance">Golden France</string>
+    <string name="NA">North America</string>
+    <string name="GNA">Golden North America</string>
+
+    <string name="foodname_error">Pastry Could Not Be Found</string>
+    <string name="foodname_error_title">No Pastry</string>
+    <string name="nopastryindication">There is no pastry on this page</string>
+
+    <!--FOOD STRINGS-->
+
+    <string name="food_details">There Are Pastry Details%n%s</string>
+    <string name="food_name_label">Name : </string>
+
+    <string name="food_cost_label">Average Price In France (€) : </string>
+
+    <string name="food_origin_label">Origin : </string>
+
+    <string name="foodimg_desc">Pastry description</string>
+
+    <string name="backbtn">Back To Pastry List</string>
+
+    <string name="home_pastryname_Tiramisu">Tiramisu</string>
+    <string name="home_pastryname_Macaron">Macaroon</string>
+    <string name="home_pastryname_Donuts">Doughnuts</string>
+    <string name="home_pastryname_Eclair">Chocolate Eclair</string>
+    <string name="home_pastryname_MilleFeuille">Mille-Feuille</string>
+    <string name="home_pastryname_ParisBrest">Paris-Brest</string>
+
+    <string name="home_pastryname_GTiramisu">Golden Tiramisu</string>
+    <string name="home_pastryname_GDonuts">Golden Doughnuts</string>
+    <string name="home_pastryname_GMacaron">Golden Macaroon</string>
+    <string name="home_pastryname_GEclair">Golden Chocolate</string>
+    <string name="home_pastryname_GMilleFeuille">Golden Mille-Feuille</string>
+    <string name="home_pastryname_GParisBrest">Golden Paris-Brest</string>
+</resources>

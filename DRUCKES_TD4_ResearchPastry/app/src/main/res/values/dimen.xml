@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_imagedimension">400dp</dimen>
+    <dimen name="listelement_img_dimension">80dp</dimen>
+    <dimen name="listeelement_txt_size">18sp</dimen>
+    <dimen name="textsize18">18sp</dimen>
+    <dimen name="textsize22">22sp</dimen>
+    <dimen name="textsize14">14sp</dimen>
+    <dimen name="btnwidth">300dp</dimen>
+
+</resources>
